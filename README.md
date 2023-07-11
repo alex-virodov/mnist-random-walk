@@ -1,4 +1,5 @@
-"Smooth"(1) random walk in MNIST image space. 
+"Smooth"<sup>[1]</sup> random walk in MNIST image space. 
+---
 
 ![](random_walk_n=5k_t=10.0_seed=1.gif)
 
@@ -9,14 +10,14 @@ displayed image, I select the next image with probability proportional to the in
 This shows that the dataset has quite a lot of built-in smoothness just from its natural density in image space.
 
 Next steps: figure out how to interpolate/extrapolate in this dataset without leaving the image space of digits.
-Probably using GANs, though GANs have demonstrained (2) they are not confined to what I as human would qualify
+Probably using GANs, though GANs have demonstrained<sup>[2]</sup> they are not confined to what I as human would qualify
 as the image space of digits.
 
 ----------------
 
-(1) preferring closest image using eucledian distance
+[1] preferring closest image using eucledian distance
 
-(2) e.g.
+[2] e.g.
 
 ![](https://machinelearningmastery.com/wp-content/uploads/2019/04/Plot-of-100-GAN-Generated-MNIST-Figures-After-100-Epochs.png)
 
